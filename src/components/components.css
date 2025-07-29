@@ -20,8 +20,15 @@
   --color-footer: #14211F;        /* Verde oscuro para footer, más profundo */
 }
 
+/* GENERAL ______________________________________________________________________________________________________ */
+
+img{
+    height: 70%;
+    align-content: center;
+}
 
 
+/* HEADER________________________________________________________________________________________________________ */
 .div-header{
     align-content: center;
     background-color: var(--color-principal);
@@ -50,13 +57,12 @@
     align-content: center;
 }
 
-
-img{
-    height: 70%;
-    align-content: center;
+.div-carrito:hover{
+    cursor: pointer;
 }
 
 
+/* MAIN __________________________________________________________________________________________________________ */
 .div-main{
     background-color: var(--color-fondo);
     height: 1000px;
@@ -64,6 +70,9 @@ img{
 }
 
 
+
+
+/* FOOTER ________________________________________________________________________________________________________ */
 .div-footer{
     /* position: fixed;
     bottom: 0; */

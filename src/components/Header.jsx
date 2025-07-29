@@ -6,7 +6,7 @@ function Header() {
     return (
         <div className="div-header">
             <div className="div-hlogo">
-                <img src={Logo} alt="logo" />
+                <img src={Logo} alt="logo F" />
                 <p>ang & Feather</p>
             </div>
             {/* Barra de busqueda*/}
