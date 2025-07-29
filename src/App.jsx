@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Header from './components/Header.jsx'
 import WelcomeText from './components/ItemListContainer.jsx'
 import Footer from './components/Footer.jsx'
@@ -9,9 +8,9 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='div-app'>
         <Header />
-        <WelcomeText />
+        <WelcomeText texto="Hola usuario! Bienvenidx a mi e-commerce dee libros." />
         <Footer />
       </div>
     </>

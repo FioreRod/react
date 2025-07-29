@@ -1,9 +1,13 @@
-//imports
+import "./components.css";
 
-function WelcomeText(){
-    return(
-        <p>Hola usuario! Bienvenidx a mi e-commerce dee libros.</p>
-    )
+function WelcomeText(props) {
+  return (
+    <main className='div-main'>
+      <div>
+        <p>{props.texto}</p>
+      </div>
+    </main>
+  );
 }
 
-export default WelcomeText
+export default WelcomeText;

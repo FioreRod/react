@@ -1,7 +1,11 @@
+import Carro from "../assets/Carrito.svg"
+import './components.css'
 
 function Carrito(){
     return(
-        <p>🛍️</p>
+        <div className='div-carrito'>
+        <img src={Carro} alt="" />
+        </div>
     )
 }
 

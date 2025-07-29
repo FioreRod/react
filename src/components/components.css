@@ -1,0 +1,79 @@
+/* :root {
+  --color-fondo: #FFFFFF;         /* blanco puro 
+  --color-principal: #53dafe;     /* celeste vibrante 
+  --color-secundario: #E07A9B;   /* rosa pastel fuerte 
+  --color-acento: #B28FD8;       /* violeta pastel 
+  --color-footer: #5c95bb;        /* azul grisáceo oscuro 
+  --color-terciario: #F4D1D9;    /* rosa muy suave para fondos o cards 
+  --color-cuarternario: #A9D6E5; /* celeste muy claro para detalles o hover 
+  --color-extra: #D6C1E1;        /* lavanda claro para balance 
+} 
+*/
+
+:root {
+  --color-fondo: #1B2A28;         /* Verde bosque muy oscuro, casi negro */
+  --color-principal: #3A6B66;     /* Verde profundo, elegante */
+  --color-secundario: #6DA89E;   /* Verde suave, para detalles y botones */
+  --color-acento: #A7D3C9;       /* Verde menta claro, para toques luminosos */
+  --color-feather: #C3D6D4;      /* Verde grisáceo muy suave, como pluma */
+  --color-texto-principal: #E3E7E6; /* Gris claro, para buen contraste */
+  --color-footer: #14211F;        /* Verde oscuro para footer, más profundo */
+}
+
+
+
+.div-header{
+    align-content: center;
+    background-color: var(--color-principal);
+    height: 3rem;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+
+.div-hlogo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.div-hlogo p{
+    color: black;
+    font-weight: 500;
+}
+
+.div-carrito{
+    align-content: center;
+}
+
+
+img{
+    height: 70%;
+    align-content: center;
+}
+
+
+.div-main{
+    background-color: var(--color-fondo);
+    height: 1000px;
+    align-content: center;
+}
+
+
+.div-footer{
+    /* position: fixed;
+    bottom: 0; */
+    align-content: center;
+    background-color:var(--color-footer);
+    width: 100%;
+    height: 4rem;
+}
+
+p{
+    margin: 0;
+    align-content: center;
+}
